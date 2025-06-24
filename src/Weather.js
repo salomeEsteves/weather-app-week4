@@ -61,17 +61,9 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <footer>
-          This project was coded by{" "}
+          🧑🏻‍💻 This project was coded by Salomé Esteves and is{" "}
           <a
-            href="https://www.shecodes.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SheCodes
-          </a>{" "}
-          and is{" "}
-          <a
-            href="https://github.com/shecodesio/weather"
+            href="https://github.com/salomeEsteves/weather-app-week4/tree/master/src"
             target="_blank"
             rel="noopener noreferrer"
           >
