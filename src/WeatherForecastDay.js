@@ -16,12 +16,12 @@ function minTemperature() {
 function day() {
     let date = new Date(props.data.time * 1000);
     let day = date.getDay();
-    let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
     return days[day];
 }
 
     return (
-    <div className="col Daily">
+    <div className="Daily">
             <h4 className="Day">{day()}</h4>
             <WeatherIcon code={props.data.condition.icon} size={45} />
             <div className="temperatures">
