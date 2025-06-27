@@ -1,9 +1,8 @@
 
-import React, { useState } from "react";
+import React from "react";
 import "./Weather.css"
 
 export default function Degrees(props) {
-  const [unit, setUnit] = useState("celsius");
 
     return (
       <div className="changeDegrees">
